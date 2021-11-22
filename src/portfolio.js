@@ -14,9 +14,9 @@ const greeting = {
     username: "Tushar Garg",
     title: "Hi all, I'm Tushar",
     subTitle: emoji(
-        "I am an avid Problem Solver and a passionate Web Developer."
+        "Passionate Web Developer and an avid Problem Solver. Loves to explore new tech stacks and upcoming global technologies."
     ),
-    resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    resumeLink: "", // Set to empty to hide the button
     displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -35,12 +35,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
     title: "What I do",
-    subTitle: "CRAZY DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+    subTitle: "WEB DEVELOPER AND PROGRAMMING ENTHUSIAST",
     skills: [
         emoji(
-            "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+            "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
         ),
-        emoji("⚡ Create Machine Learning Models to ease out humans tasks")
+        emoji("⚡ Knack for Competitive Programming in C++")
     ],
 
     /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -67,10 +67,6 @@ https://fontawesome.com/icons?d=gallery */
             fontAwesomeClassname: "fab fa-node"
         },
         {
-            skillName: "npm",
-            fontAwesomeClassname: "fab fa-npm"
-        },
-        {
             skillName: "sql-database",
             fontAwesomeClassname: "fas fa-database"
         },
@@ -87,7 +83,7 @@ const educationInfo = {
     display: true, // Set false to hide this section, defaults to true
     schools: [{
             schoolName: "Jaypee Institute of Information Technology",
-            logo: require("./assets/images/Logo-jiit.png"),
+            logo: require("./assets/images/jiit2.png"),
             subHeader: "Bachelor of Technology (Computer Science)",
             duration: "July 2019 - Present",
             desc: "CGPA : 8.2"
@@ -98,7 +94,7 @@ const educationInfo = {
         },
         {
             schoolName: "Delhi Public School Ghaziabad Vasundhara",
-            logo: require("./assets/images/dpsgv.jpg"),
+            logo: require("./assets/images/dpsgv2.jpg"),
             subHeader: "Secondary and Higher Secondary Education",
             duration: "April 2011 - April 2019",
             desc: `Class 12 : 91.6% Class 10 : 95%`
@@ -116,12 +112,12 @@ const techStack = {
             progressPercentage: "60%" //Insert relative proficiency in percentage
         },
         {
-            Stack: "Machine Learning",
-            progressPercentage: "3%"
-        },
-        {
             Stack: "Data Structures and Algorithms",
             progressPercentage: "70%"
+        },
+        {
+            Stack: "Competitve Programming",
+            progressPercentage: "30%"
         }
     ],
     displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -132,14 +128,14 @@ const techStack = {
 const workExperiences = {
     display: true, //Set it to true to show workExperiences Section
     experience: [{
-            role: "FrontEnd Developer Intern",
+            role: "Web Developer Intern",
             company: "FilterPixel",
             companylogo: require("./assets/images/fp.png"),
             date: "November 2021 – Present",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            desc: "Primarily working as a Web Developer. Working on technologies such as Angular and Electron JS.   ",
             descBullets: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                "Primarily tasks include revamp of UI/UX design of the application and debugging of other frontend features.",
+                "Also contributing to other domains including Deep Learning and Digital Marketing."
             ]
         }
         // {
@@ -170,28 +166,39 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-    title: "Big Projects",
-    subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+    title: "Projects",
+    subtitle: "FEW OF MY PROJECTS IN THE DOMAIN I AM PASSIONATE ABOUT!",
     projects: [{
-            image: require("./assets/images/saayaHealthLogo.webp"),
-            projectName: "Saayahealth",
-            projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            image: require("./assets/images/CRYPTOWORLD.jpg"),
+            projectName: "CRYPTOWORLD",
+            projectDesc: "CryptoWorld is a platform where one can get all the information regarding the various Cryptocurrencies in Real Time.",
             footerLink: [{
                     name: "Visit Website",
-                    url: "http://saayahealth.com/"
+                    url: "https://crypto-app-assassin1771.netlify.app/"
                 }
                 //  you can add extra buttons here.
             ]
         },
         {
-            image: require("./assets/images/nextuLogo.webp"),
-            projectName: "Nextu",
-            projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            image: require("./assets/images/WEATHER.png"),
+            projectName: "WEATHER APP",
+            projectDesc: "An innovative platform where user can find the weather details of any city they enter. Website is fully responsive and compatible on all devices.",
             footerLink: [{
                 name: "Visit Website",
-                url: "http://nextu.se/"
+                url: "https://weather-app-assassin1771.netlify.app/"
             }]
-        }
+        },
+        {
+            image: require("./assets/images/TASK.png"),
+            projectName: "TASKS TRACKER",
+            projectDesc: "A CRUD Application, where user can store data and even modify and delete data as per required. Website is fully responsive and compatible on all devices.",
+            footerLink: [{
+                    name: "Visit Website",
+                    url: "https://tasks-tracker-assassin1771.netlify.app/"
+                }
+                //  you can add extra buttons here.
+            ]
+        },
     ],
     display: true // Set false to hide this section, defaults to true
 };
@@ -201,47 +208,44 @@ const bigProjects = {
 
 const achievementSection = {
     title: emoji("Achievements And Certifications 🏆 "),
-    subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    subtitle: "",
 
     achievementsCards: [{
-            title: "Google Code-In Finalist",
-            subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-            image: require("./assets/images/codeInLogo.webp"),
+            title: "PROBLEM SOLVING (BASIC) ",
+            subtitle: "HACKERRANK",
+            image: require("./assets/images/HACKERRANK.png"),
             footerLink: [{
                     name: "Certification",
                     url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
                 },
-                {
-                    name: "Award Letter",
-                    url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-                },
-                {
-                    name: "Google Code-in Blog",
-                    url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-                }
+                // {
+                //     name: "Award Letter",
+                //     url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR 3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+                // },
+                // {
+                //     name: "Google Code-in Blog",
+                //     url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+                // }
             ]
         },
         {
-            title: "Google Assistant Action",
-            subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-            image: require("./assets/images/googleAssistantLogo.webp"),
+            title: "FULL STACK WEB DEVELOPMENT",
+            subtitle: "UDEMY",
+            image: require("./assets/images/UDEMY.png"),
             footerLink: [{
-                name: "View Google Assistant Action",
-                url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+                name: "Certification",
+                url: ""
             }]
         },
 
         {
-            title: "PWA Web App Developer",
-            subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-            image: require("./assets/images/pwaLogo.webp"),
-            footerLink: [
-                { name: "Certification", url: "" },
-                {
-                    name: "Final Project",
-                    url: "https://pakistan-olx-1.firebaseapp.com/"
-                }
-            ]
+            title: "DIGITAL MARKETING",
+            subtitle: "GOOGLE",
+            image: require("./assets/images/GOOGLE.png"),
+            footerLink: [{
+                name: "Certification",
+                url: ""
+            }, ]
         }
     ],
     display: true // Set false to hide this section, defaults to true
@@ -299,7 +303,7 @@ const podcastSection = {
 
 const contactInfo = {
     title: emoji("Contact Me ☎️"),
-    subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
+    subtitle: "Wanna discuss something with me? My Inbox is open for all.",
     number: "+91-9313349392",
     email_address: "tshrgarg2010@gmail.com"
 };
