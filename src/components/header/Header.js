@@ -67,7 +67,7 @@ function Header() {
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a>
-              <span style={{marginRight: "10px"}}>Dark Mode</span>
+              <span style={{marginRight: "10px"}}>Switch Theme</span>
               <ToggleSwitch />
             </a>
           </li>
