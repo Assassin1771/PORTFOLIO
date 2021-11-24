@@ -38,7 +38,7 @@ const skillsSection = {
     subTitle: "WEB DEVELOPER AND PROGRAMMING ENTHUSIAST",
     skills: [
         emoji(
-            "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
+            "⚡ Develop highly interactive FrontEnd User Interfaces for Web Applications"
         ),
         emoji("⚡ Knack for Competitive Programming in C++")
     ],
@@ -47,6 +47,10 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
     softwareSkills: [{
+            skillName: "C++",
+            fontAwesomeClassname: "fab fa-cuttlefish"
+        },
+        {
             skillName: "html-5",
             fontAwesomeClassname: "fab fa-html5"
         },
@@ -95,11 +99,19 @@ const educationInfo = {
         {
             schoolName: "Delhi Public School Ghaziabad Vasundhara",
             logo: require("./assets/images/dpsgv2.jpg"),
-            subHeader: "Secondary and Higher Secondary Education",
-            duration: "April 2011 - April 2019",
-            desc: `Class 12 : 91.6% Class 10 : 95%`
+            subHeader: "Higher Secondary Education",
+            duration: "",
+            desc: 'Class 12 : 91.6%'
                 // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-        }
+        },
+        {
+            schoolName: "Delhi Public School Ghaziabad Vasundhara",
+            logo: require("./assets/images/dpsgv2.jpg"),
+            subHeader: "Secondary Education",
+            duration: "",
+            desc: 'Class 10 : 95%'
+                // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+        },
     ]
 };
 
@@ -167,7 +179,7 @@ const openSource = {
 
 const bigProjects = {
     title: "Projects",
-    subtitle: "FEW OF MY PROJECTS IN THE DOMAIN I AM PASSIONATE ABOUT!",
+    subtitle: "FEW OF MY PROJECTS IN THE DOMAINS I AM PASSIONATE ABOUT!",
     projects: [{
             image: require("./assets/images/CRYPTOWORLD.jpg"),
             projectName: "CRYPTOWORLD",

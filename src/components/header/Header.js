@@ -48,7 +48,7 @@ function Header() {
           )}
           {viewEducation && (
             <li>
-              <a href="#education">Education</a>
+              <a href="#education ">Education</a>
             </li>
           )}
           {viewExperience && (
