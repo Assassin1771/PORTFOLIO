@@ -147,7 +147,7 @@ const workExperiences = {
       role: "FrontEnd Developer Intern",
       company: "FilterPixel",
       companylogo: require("./assets/images/fp.png"),
-      date: "November 2021 – December",
+      date: "November 2021 – December 2021",
       desc: "Help improve the UI/UX of FilterPixel's Desktop Application and Website",
       descBullets: [
         "Majorly worked on technologies such as AngularJS, ElectronJS and SCSS",
@@ -212,7 +212,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/cryptoworld2.png"),
-      projectName: "TASKS TRACKER",
+      projectName: "CRYPTOWORLD",
       projectDesc:
         "A platform where users can view and keep track of various different cryptocurrencies.",
       footerLink: [
@@ -225,7 +225,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/google-search.png"),
-      projectName: "Google Search Clone",
+      projectName: "GOOGLE SEARCH CLONE",
       projectDesc:
         "A Google Search Clone, on which you can search for literally anything.",
       footerLink: [
