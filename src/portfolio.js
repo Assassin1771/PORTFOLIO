@@ -183,44 +183,56 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "FEW OF MY PROJECTS IN THE DOMAINS I AM PASSIONATE ABOUT!",
+  subtitle: "",
   projects: [
     {
-      image: require("./assets/images/CRYPTOWORLD.jpg"),
-      projectName: "CRYPTOWORLD",
+      image: require("./assets/images/sports-villa.jpg"),
+      projectName: "SPORTS VILLA",
       projectDesc:
-        "CryptoWorld is a platform where one can get all the information regarding the various Cryptocurrencies in Real Time.",
+        "A platform where users can find content related to the sport world in general. Completely Responsive Website.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://crypto-app-assassin1771.netlify.app/"
+          url: "https://sports-villa-final.vercel.app/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/WEATHER.png"),
-      projectName: "WEATHER APP",
+      image: require("./assets/images/money-tracker.webp"),
+      projectName: "MONEY TRACKER",
       projectDesc:
-        "An innovative platform where user can find the weather details of any city they enter. Website is fully responsive and compatible on all devices.",
+        "An advanced voice powered application which can help users to keep track of all their transactions.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://weather-app-assassin1771.netlify.app/"
+          url: "https://money-tracker-assassin1771.netlify.app/"
         }
       ]
     },
     {
-      image: require("./assets/images/TASK.png"),
+      image: require("./assets/images/cryptoworld2.png"),
       projectName: "TASKS TRACKER",
       projectDesc:
-        "A CRUD Application, where user can store data and even modify and delete data as per required. Website is fully responsive and compatible on all devices.",
+        "A platform where users can view and keep track of various different cryptocurrencies.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://tasks-tracker-assassin1771.netlify.app/"
+          url: "https://cryptoworld-assassin1771.netlify.app/"
         }
         //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/google-search.png"),
+      projectName: "Google Search Clone",
+      projectDesc:
+        "A Google Search Clone, on which you can search for literally anything.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://google-clone-assassin1771.netlify.app/search"
+        }
       ]
     }
   ],
