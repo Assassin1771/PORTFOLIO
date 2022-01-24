@@ -14,7 +14,7 @@ const greeting = {
   username: "Tushar Garg",
   title: "Hello Everyone!!",
   subTitle: emoji(
-    "I am Tushar Garg and currently doing my Undergraduate in Computer Science. I am an avid Problem Solver and a passinate Web Developer. I love to explore new tech stacks and upcoming global technologies."
+    "I am Tushar Garg and currently doing my Undergraduate in Computer Science. I am an avid Problem Solver and a passionate Web Developer. I love to explore new tech stacks and upcoming global technologies."
   ),
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -38,9 +38,9 @@ const skillsSection = {
   subTitle: "WEB DEVELOPER AND PROGRAMMING ENTHUSIAST",
   skills: [
     emoji(
-      "⚡ Develop highly interactive FrontEnd User Interfaces for Web Applications"
+      "⚡ Develop highly Interactive FrontEnd User Interfaces for Web Applications"
     ),
-    emoji("⚡ Knack for Competitive Programming in C++")
+    emoji("⚡ Knack for Competitive Programming and DSA in C++")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -144,14 +144,14 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Web Developer Intern",
+      role: "FrontEnd Developer Intern",
       company: "FilterPixel",
       companylogo: require("./assets/images/fp.png"),
-      date: "November 2021 – Present",
-      desc: "Currently working as a Web Developer and mostly on technologies Angular and Electron JS.",
+      date: "November 2021 – December",
+      desc: "Help improve the UI/UX of FilterPixel's Desktop Application and Website",
       descBullets: [
-        "Primary tasks include revamp of UI/UX design of the application and debugging of other frontend features.",
-        "Also contributing to other domains including Deep Learning and Digital Marketing."
+        "Majorly worked on technologies such as AngularJS, ElectronJS and SCSS",
+        "Resolved various bugs and help improvise other features and components"
       ]
     }
     // {
